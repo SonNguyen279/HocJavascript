@@ -75,13 +75,174 @@ button:focus {
   opacity: 0;
 }
 
+/* NAVBAR CSS */
+.bg-body-tertiary {
+  z-index: 9999;
+}
+
+.my-auto {
+  margin-left: auto !important;
+}
+
+.navbar-add {
+  margin-left: 20px;
+}
+
 /* HOME CSS */
+.home-page .block-hi-there {
+  height: 500px;
+  display: flex;
+}
+
 .home-page .block-hi-there .block-hi-left {
   width: 50%;
   float: left;
+  margin: auto;
 }
 .home-page .block-hi-there .block-hi-right {
   width: 50%;
   float: right;
+  margin: auto;
 }
 /* END HOME CSS */
+
+
+/* ABOUT CSS */
+.about-page {
+  padding: 50px 0 50px 0;
+}
+
+.about-two-column {
+  padding: 10px;
+}
+
+.about-page .about-two-column {
+  height: 500px;
+}
+
+.about-page .about-two-column .about-column-left {
+  width: 60%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.about-page .about-two-column .about-column-right {
+  width: 40%;
+  float: right;
+}
+
+.about-page .about-two-column .about-column-left p {
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+  text-align: left;
+}
+
+.about-page .about-two-column .about-column-left ul {
+  padding-top: 10px;
+}
+
+.about-page .about-two-column .about-column-left ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.about-full {
+  padding: 50px;
+}
+/* END ABOUT CSS */
+
+/* CSS Projects */
+.projects-page .project-full {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.project-three-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-three {
+  float: left;
+  width: 33.33333%;
+  background-color: transparent !important;
+}
+
+.project-columns {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 25px !important;
+}
+
+.project-img-columns {
+  width: 100%;
+  display: block;
+}
+
+.project-content-columns {
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+}
+
+.project-content-columns:hover {
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, .561) !important;
+  overflow: hidden !important;
+  transform: scale(1.02) !important;
+}
+
+
+.project-add {
+  background-color: transparent !important;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, .459) !important;
+  height: 100% !important;
+  opacity: .9 !important;
+  transition: all .5s ease 0s !important;
+}
+
+.project-desc-columns {
+  text-align: justify;
+  padding: 1rem;
+}
+
+/* END Projects */
+
+/* ADD RESUME */
+.resume-download {
+  padding: 50px 0 50px;
+}
+
+.resume-btn {
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+  color: #fff !important;
+}
+
+.resume-btn:hover {
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+  color: #fff !important;
+}
+
+.resume-body-cv {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.resume-cv img {
+  width: 1011px;
+  height: 1431px;
+}
+
+
+
+
+/* END RESUME */

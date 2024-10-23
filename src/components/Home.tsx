@@ -5,8 +5,8 @@ const Home = () => {
     <Container fluid className="home-page">
       <div className="block-hi-there">
         <div className="block-hi-left">
-          <h3>Hi There!</h3>
-          <h3>I'm Nguyen Son</h3>
+          <h1>Hi There!</h1>
+          <h1>I'm Nguyen Son</h1>
           <p>Frontend Developer</p> 
         </div>
         <div className="block-hi-right">
