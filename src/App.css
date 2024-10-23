@@ -110,6 +110,15 @@ button:focus {
   display: flex;
 }
 
+.block-body .block-body-left h1 {
+  padding: 50px 0 20px;
+}
+
+.block-body .block-body-left p {
+  text-align: left;
+  margin-right: 20px;
+}
+
 .div-body-left {
   width: 60%;
   float: left;
@@ -123,7 +132,8 @@ button:focus {
 }
 
 .div-body-right img {
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .block-connect {

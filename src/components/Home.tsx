@@ -15,7 +15,7 @@ const Home = () => {
         </div>
       </div>
       <div className="block-body">
-        <div className="div-body-left">
+        <div className="block-body-left">
           <h1>HÃY CHO TÔI GIỚI THIỆU BẢN THÂN MÌNH</h1>
           <p>Tôi yêu lập trình và ít nhất tôi đã học được điều gì đó, tôi nghĩ…</p>
           <p>Tôi thông thạo các tác phẩm kinh điển như C++, Javascript và Go.</p>
