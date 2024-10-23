@@ -104,6 +104,45 @@ button:focus {
   float: right;
   margin: auto;
 }
+
+.block-body {
+  height: 500px;
+  display: flex;
+}
+
+.div-body-left {
+  width: 60%;
+  float: left;
+  margin: auto; 
+}
+
+.div-body-right {
+  width: 40%;
+  float: right;
+  margin: auto;
+}
+
+.div-body-right img {
+  width: 90%;
+}
+
+.block-connect {
+  padding-top: 20px;
+}
+
+.block-application {
+  margin-right: 36px;
+  font-size: 20px;
+}
+
+.application-icons {
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
 /* END HOME CSS */
 
 
