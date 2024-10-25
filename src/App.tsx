@@ -13,6 +13,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 // import Home from "./components/Home/Home";
 // import ScrollToTop from "./components/ScrollToTop";
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/resume" element={<Resume />}></Route>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   )

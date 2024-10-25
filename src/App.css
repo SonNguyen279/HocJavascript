@@ -106,7 +106,7 @@ button:focus {
 }
 
 .block-body {
-  height: 500px;
+  height: 540px;
   display: flex;
 }
 
@@ -197,9 +197,46 @@ button:focus {
   text-align: left;
 }
 
-.about-full {
-  padding: 50px;
+.about-page .about-heading {
+  padding: 50px 0px 5px;
 }
+
+.about-heading-add {
+  padding: 10px 0px 30px;
+}
+
+
+.about-page .about-full .col-md-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.about-page .about-full {
+  justify-content: center;
+  padding: 0px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-page .about-full .about-tech-icons {
+  border: 1.7px solid rgba(200, 137, 230, .637) !important;
+  border-radius: 5px !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137) !important;
+  display: table !important;
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  opacity: .93 !important;
+  overflow: hidden !important;
+  padding: 10px !important;
+  text-align: center !important;
+  transition: all .4s ease 0s !important;
+  vertical-align: middle !important;
+}
+
+.about-keyboard {
+  padding-left: 165px;
+}
+
 /* END ABOUT CSS */
 
 /* CSS Projects */
