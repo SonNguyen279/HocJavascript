@@ -143,6 +143,7 @@ button:focus {
 .block-application {
   margin-right: 36px;
   font-size: 20px;
+  padding-bottom: 50px;
 }
 
 .application-icons {
@@ -240,6 +241,10 @@ button:focus {
 /* END ABOUT CSS */
 
 /* CSS Projects */
+.projects-page {
+  padding-bottom: 30px;
+}
+
 .projects-page .project-full {
   padding-top: 100px;
   padding-bottom: 30px;
@@ -328,7 +333,34 @@ button:focus {
   height: 1431px;
 }
 
-
-
-
 /* END RESUME */
+
+/* ADD FOOTER */
+.footer-page {
+  background-color: #0c0513;
+}
+
+.footer-all {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.footer-page .footer-all .footer-copywright h3 {
+  font-size: 1em;
+  margin-bottom: .5em !important;
+  margin-top: .5em !important;
+}
+
+.footer-md-4 {
+  width: 33.3333333%;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+}
+
+/* END FOOTER */
