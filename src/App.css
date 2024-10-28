@@ -76,9 +76,11 @@ button:focus {
 }
 
 /* NAVBAR CSS */
+
 .bg-body-tertiary {
-  position: relative;
+  position: fixed;
   z-index: 999;
+  width: 100%;
 }
 
 .my-auto {
